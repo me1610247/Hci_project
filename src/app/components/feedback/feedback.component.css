@@ -1,0 +1,12 @@
+.custom-form {
+  max-width: 500px; /* Adjust the maximum width of the form */
+  margin: auto; /* Center the form horizontally */
+}
+
+.custom-input-group {
+  margin-bottom: 20px; /* Adjust the margin bottom for input group */
+}
+
+.custom-textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}

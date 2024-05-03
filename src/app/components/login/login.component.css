@@ -1,0 +1,17 @@
+.outer {
+  display: flex;
+  align-items: center;
+  height: 100vh; /* Adjust this if you want different vertical alignment */
+  background-image: linear-gradient(to bottom right, #5246, #feb47b); /* Adjust the colors as needed */
+}
+
+.container {
+  width: 100%;
+}
+.password-input {
+  position: relative;
+}
+
+.password-wrapper {
+  position: relative;
+}

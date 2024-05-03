@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding-bottom: 60px; /* Adjust this value based on the height of your footer */
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0; /* Adjust this color as needed */
+  padding: 20px 0;
+}
+.footer .social-icons {
+  text-align: center;
+}
+.footer .social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer .social-icons li a {
+  color: #333;
+  font-size: 24px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countries-list,
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}

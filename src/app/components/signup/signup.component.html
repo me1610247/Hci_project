@@ -1,0 +1,49 @@
+<div class="outer">
+  <div class="container">
+     <div class="row justify-content-center">
+       <div class="col-lg-5 col-md-7">
+           <div class="panel border bg-white text-center"> <!-- Added text-center class -->
+               <div class="panel-heading">
+                  <h3 class="pt-3 font-weight-bold">Sign up</h3>
+               </div>
+               <div class="panel-body p-3">
+                 <form>
+                   <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">User Name</label>
+                     <input type="email" required placeholder="Enter Your Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                   </div>
+                   <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">Email</label>
+                     <input type="email" required placeholder="Enter Your Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                   </div>
+                   <div class="mb-3 password-input">
+                     <label for="exampleInputPassword1" class="form-label">Password</label>
+                     <div class="password-wrapper">
+                       <input type="password" required placeholder="Enter Your Password" class="form-control" id="exampleInputPassword1">
+                     </div>
+                   </div>
+                   <div class="mb-3 password-input">
+                     <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                     <div class="password-wrapper">
+                       <input type="password" required placeholder="Confirm Your Password" class="form-control" id="exampleInputPassword1">
+                     </div>
+                     <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                      <input type="phone" required placeholder="Enter Your Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                   </div>
+                   <div class="mb-3 form-check">
+                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                     <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                   </div>
+                   <button type="submit" routerLink="/home" class="btn btn-primary my-4">Sign Up</button>
+                   <br>
+                   <span class="md-4">Already Have Account ?  </span>
+                   <button type="submit" routerLink="/login" class="btn btn-success">Sign in ?</button>
+                 </form>
+               </div>
+           </div>
+       </div>
+     </div>
+  </div>
+</div>

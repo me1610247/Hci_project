@@ -1,0 +1,57 @@
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.vertical-line {
+  border-left: 1px solid #ccc; /* Adjust color and thickness as needed */
+   /* Make the line span the full height of the container */
+  position: absolute; /* Position the line absolutely within the column */
+  top: 0; /* Align the top of the line with the top of the column */
+  bottom: 0; /* Align the bottom of the line with the bottom of the column */
+  left: 50%; /* Position the line in the middle horizontally */
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+.navbar {
+  z-index: 1000; /* Adjust the value as needed */
+}
+.notification-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+}
+
+.notification-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-message {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.notification-date {
+  color: #999;
+}
+
+.line{
+  width: 50%;
+}
